@@ -1,0 +1,65 @@
+2023-04-02 05:42:32:109 [Appium] Welcome to Appium v2.0.0-beta.57
+2023-04-02 05:42:32:128 [Appium] Non-default server args:
+2023-04-02 05:42:32:138 [Appium] { sessionOverride: true }
+2023-04-02 05:42:32:141 [Appium] Attempting to load driver uiautomator2...
+2023-04-02 05:42:32:184 [Appium] Requiring driver at C:\Users\Sravan Kumar\.appium\node_modules\appium-uiautomator2-driver
+2023-04-02 05:43:12:807 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2023-04-02 05:43:12:812 [Appium] Available drivers:
+2023-04-02 05:43:12:815 [Appium]   - uiautomator2@2.12.6 (automationName 'UiAutomator2')
+2023-04-02 05:43:12:818 [Appium] No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+2023-04-02 05:43:12:883 [HTTP] --> GET /status
+2023-04-02 05:43:12:884 [HTTP] {}
+2023-04-02 05:43:12:892 [AppiumDriver@d03a] Calling AppiumDriver.getStatus() with args: []
+2023-04-02 05:43:12:902 [AppiumDriver@d03a] Responding to client with driver.getStatus() result: {"build":{"version":"2.0.0-beta.57"}}
+2023-04-02 05:43:12:933 [HTTP] <-- GET /status 200 36 ms - 47
+2023-04-02 05:43:12:936 [HTTP] 
+2023-04-02 05:43:20:240 [HTTP] Request idempotency key: db13a6e0-e525-4df3-9f83-6d29c21db3de
+2023-04-02 05:43:20:525 [HTTP] --> POST /session
+2023-04-02 05:43:20:527 [HTTP] {"capabilities":{"firstMatch":[{}],"alwaysMatch":{"appium:appActivity":".ApiDemos","appium:appPackage":"io.appium.android.apis","appium:automationName":"uiautomator2","appium:deviceName":"Harish's F23","appium:platformVersion":"13","appium:udid":"RZCT406BZQM","platformName":"android"}}}
+2023-04-02 05:43:20:532 [AppiumDriver@d03a] Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{}],"alwaysMatch":{"appium:appActivity":".ApiDemos","appium:appPackage":"io.appium.android.apis","appium:automationName":"uiautomator2","appium:deviceName":"Harish's F23","appium:platformVersion":"13","appium:udid":"RZCT406BZQM","platformName":"android"}}]
+2023-04-02 05:43:20:536 [AppiumDriver@d03a] Event 'newSessionRequested' logged at 1680414200534 (11:13:20 GMT+0530 (India Standard Time))
+2023-04-02 05:43:20:574 [Appium] Attempting to find matching driver for automationName 'uiautomator2' and platformName 'android'
+2023-04-02 05:43:20:577 [Appium] The 'uiautomator2' driver was installed and matched caps.
+2023-04-02 05:43:20:578 [Appium] Will require it at C:\Users\Sravan Kumar\.appium\node_modules\appium-uiautomator2-driver
+2023-04-02 05:43:20:579 [Appium] Requiring driver at C:\Users\Sravan Kumar\.appium\node_modules\appium-uiautomator2-driver
+2023-04-02 05:43:20:582 [AppiumDriver@d03a] Appium v2.0.0-beta.57 creating new AndroidUiautomator2Driver (v2.12.6) session
+2023-04-02 05:43:20:584 [AppiumDriver@d03a] Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+2023-04-02 05:43:20:586 [AppiumDriver@d03a] Appium's BaseDriver version is 9.3.3
+2023-04-02 05:43:20:588 [AppiumDriver@d03a] AndroidUiautomator2Driver's BaseDriver version is 9.3.3
+2023-04-02 05:43:20:590 [AppiumDriver@d03a] There are no active sessions for cleanup
+2023-04-02 05:43:20:613 [AndroidUiautomator2Driver@7d45] Creating session with W3C capabilities: {
+2023-04-02 05:43:20:615 [AndroidUiautomator2Driver@7d45]   "alwaysMatch": {
+2023-04-02 05:43:20:617 [AndroidUiautomator2Driver@7d45]     "platformName": "android",
+2023-04-02 05:43:20:618 [AndroidUiautomator2Driver@7d45]     "appium:appActivity": ".ApiDemos",
+2023-04-02 05:43:20:620 [AndroidUiautomator2Driver@7d45]     "appium:appPackage": "io.appium.android.apis",
+2023-04-02 05:43:20:621 [AndroidUiautomator2Driver@7d45]     "appium:automationName": "uiautomator2",
+2023-04-02 05:43:20:622 [AndroidUiautomator2Driver@7d45]     "appium:deviceName": "Harish's F23",
+2023-04-02 05:43:20:623 [AndroidUiautomator2Driver@7d45]     "appium:platformVersion": "13",
+2023-04-02 05:43:20:624 [AndroidUiautomator2Driver@7d45]     "appium:udid": "RZCT406BZQM"
+2023-04-02 05:43:20:627 [AndroidUiautomator2Driver@7d45]   },
+2023-04-02 05:43:20:628 [AndroidUiautomator2Driver@7d45]   "firstMatch": [
+2023-04-02 05:43:20:629 [AndroidUiautomator2Driver@7d45]     {}
+2023-04-02 05:43:20:631 [AndroidUiautomator2Driver@7d45]   ]
+2023-04-02 05:43:20:631 [AndroidUiautomator2Driver@7d45] }
+2023-04-02 05:43:20:745 [AndroidUiautomator2Driver@7d45 (6144a08e)] Session created with session id: 6144a08e-5ac6-476c-8f81-77dce67e39aa
+2023-04-02 05:43:20:748 [AndroidUiautomator2Driver@7d45 (6144a08e)] Starting 'io.appium.android.apis' directly on the device
+2023-04-02 05:43:20:870 [ADB] Found 2 'build-tools' folders under 'C:\Users\Sravan Kumar\AppData\Local\Android\Sdk' (newest first):
+2023-04-02 05:43:20:871 [ADB]     C:/Users/Sravan Kumar/AppData/Local/Android/Sdk/build-tools/33.0.1
+2023-04-02 05:43:20:872 [ADB]     C:/Users/Sravan Kumar/AppData/Local/Android/Sdk/build-tools/30.0.3
+2023-04-02 05:43:20:875 [ADB] Using 'adb.exe' from 'C:\Users\Sravan Kumar\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2023-04-02 05:43:20:879 [ADB] Running 'C:\Users\Sravan Kumar\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2023-04-02 05:43:27:179 [AndroidDriver] Retrieving device list
+2023-04-02 05:43:27:180 [ADB] Trying to find a connected android device
+2023-04-02 05:43:27:182 [ADB] Getting connected devices
+2023-04-02 05:43:27:559 [ADB] Connected devices: [{"udid":"4cae4334","state":"device"}]
+2023-04-02 05:43:27:562 [AndroidDriver] Device RZCT406BZQM was not in the list of connected devices
+2023-04-02 05:43:27:564 [AndroidUiautomator2Driver@7d45 (6144a08e)] Deleting UiAutomator2 session
+2023-04-02 05:43:27:569 [AppiumDriver@d03a] Event 'newSessionStarted' logged at 1680414207568 (11:13:27 GMT+0530 (India Standard Time))
+2023-04-02 05:43:27:771 [AppiumDriver@d03a] Encountered internal error running command: Error: Device RZCT406BZQM was not in the list of connected devices
+2023-04-02 05:43:27:771 [AppiumDriver@d03a]     at Object.errorAndThrow (C:\Users\Sravan Kumar\.appium\node_modules\appium-uiautomator2-driver\node_modules\@appium\support\lib\logging.js:115:34)
+2023-04-02 05:43:27:771 [AppiumDriver@d03a]     at Object.getDeviceInfoFromCaps (C:\Users\Sravan Kumar\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\lib\android-helpers.js:239:16)
+2023-04-02 05:43:27:772 [AppiumDriver@d03a]     at AndroidUiautomator2Driver.startUiAutomator2Session (C:\Users\Sravan Kumar\.appium\node_modules\appium-uiautomator2-driver\lib\driver.js:349:26)
+2023-04-02 05:43:27:772 [AppiumDriver@d03a]     at AndroidUiautomator2Driver.createSession (C:\Users\Sravan Kumar\.appium\node_modules\appium-uiautomator2-driver\lib\driver.js:240:7)
+2023-04-02 05:43:27:772 [AppiumDriver@d03a]     at AppiumDriver.createSession (C:\Users\Sravan Kumar\AppData\Roaming\npm\node_modules\appium\lib\appium.js:349:35)
+2023-04-02 05:43:27:851 [HTTP] <-- POST /session 500 7323 ms - 698
+2023-04-02 05:43:27:852 [HTTP] 

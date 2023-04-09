@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="2" parallel="tests">
+  <test name="Test1">
+  <parameter name="deviceName" value="sravan"></parameter>
+  <parameter name="udid" value="4cae4334"></parameter>
+  <parameter name="androidversion" value="12"></parameter>
+  <parameter name="port" value="4724"></parameter>
+    <classes>
+      <class name="com.generalStore.PrintToastMsgTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test name="Test2">
+  <parameter name="deviceName" value="Harish's F23'"></parameter>
+  <parameter name="udid" value="RZCT406BZQM"></parameter>
+  <parameter name="androidversion" value="13"></parameter>
+  <parameter name="port" value="4723"></parameter>
+    <classes>
+      <class name="com.generalStore.PrintToastMsgTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

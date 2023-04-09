@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="Test2(failed)">
+    <parameter name="port" value="4723"/>
+    <parameter name="udid" value="RZCT406BZQM"/>
+    <parameter name="deviceName" value="Harish&#039;s F23&#039;"/>
+    <parameter name="androidversion" value="13"/>
+    <classes>
+      <class name="com.generalStore.PrintToastMsgTest">
+        <methods>
+          <include name="LaunchApp"/>
+          <include name="setCapabilites"/>
+          <include name="toastmsgTest"/>
+          <include name="terminateServer"/>
+        </methods>
+      </class> <!-- com.generalStore.PrintToastMsgTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
