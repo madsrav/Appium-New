@@ -1,9 +1,15 @@
 package com.generalStore;
 
+import java.time.Duration;
+
 import org.testng.annotations.Test;
 
 import base.BaseClass;
 import io.appium.java_client.AppiumBy;
+import io.appium.java_client.TouchAction;
+import io.appium.java_client.touch.WaitOptions;
+import io.appium.java_client.touch.offset.ElementOption;
+import io.appium.java_client.touch.offset.PointOption;
 
 public class PrintToastMsgTest extends BaseClass{
 
@@ -15,6 +21,7 @@ public class PrintToastMsgTest extends BaseClass{
 		String av="China";
 		driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView("+an+"(\""+av+"\"))")).click();
 		driver.findElement(AppiumBy.id("btnLetsShop")).click();
+	
 		
 		String toast1 = driver.findElement(AppiumBy.xpath("//android.widget.Toast[1]")).getText();
 		
